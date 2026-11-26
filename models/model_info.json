@@ -1,0 +1,38 @@
+{
+  "feature_set": "with_peak_power",
+  "features": [
+    "forecast_irr_kwh_m2",
+    "forecast_cloud_pct",
+    "forecast_temp_c",
+    "clearsky_kwh_m2",
+    "yesterday_kwh",
+    "ratio_7d",
+    "peak_kw_yesterday",
+    "peak_kw_7d"
+  ],
+  "validation_mae_kwh": {
+    "without_day_of_year": 797.0924011011444,
+    "with_day_of_year": 927.8993149559053,
+    "with_peak_power": 529.4063846958567
+  },
+  "test_mae_other_feature_set": 915.8,
+  "train_days": 243,
+  "test_days": 81,
+  "train_period": [
+    "2021-01-04",
+    "2021-10-06"
+  ],
+  "test_period": [
+    "2021-10-07",
+    "2022-01-17"
+  ],
+  "average_test_kwh": 2237.9,
+  "fitted_performance_ratio": 0.418,
+  "test_mae_kwh": 687.0,
+  "rf_params": {
+    "n_estimators": 300,
+    "min_samples_leaf": 5,
+    "random_state": 42,
+    "n_jobs": -1
+  }
+}

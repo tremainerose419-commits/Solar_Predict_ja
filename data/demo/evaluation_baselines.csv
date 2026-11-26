@@ -1,0 +1,4 @@
+,MAE_kWh,RMSE_kWh,MAE_pct_of_avg
+persistence,715.2,1016.5,31.6
+physics,732.1,971.3,32.3
+physics_calibrated,931.2,1091.0,41.1

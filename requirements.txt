@@ -1,0 +1,12 @@
+pandas
+numpy
+requests
+scikit-learn
+pvlib
+joblib
+matplotlib
+plotly
+streamlit
+pyarrow
+s3fs
+pvdaq_access

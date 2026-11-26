@@ -1,0 +1,4 @@
+baseline,baseline_MAE_kWh,skill
+persistence,707.7,0.029
+physics,737.8,0.069
+physics_calibrated,917.2,0.251
